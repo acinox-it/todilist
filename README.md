@@ -1,16 +1,74 @@
-# React + Vite
+# 📝 To-Do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Une application de gestion de tâches moderne construite avec **React**, **Vite**, **Tailwind CSS**, et **React Router**. Elle permet d’ajouter, filtrer, marquer comme terminées et supprimer des tâches, avec une interface responsive et stylisée en jaune, blanc et gris foncé.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Fonctionnalités
 
-## React Compiler
+- ✅ Ajout et suppression de tâches
+- 🟡 Marquage comme terminée
+- 🔍 Filtrage : toutes / à faire / terminées
+- 💾 Persistance via `localStorage`
+- 🧭 Routing avec plusieurs pages
+- 🎨 Design moderne avec icônes Heroicons
+- 📊 Compteur de tâches affichées
+- ⚡ Animation d’apparition des tâches
+- 📌 Favicon personnalisable
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧱 Stack technique
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/)
+- [Heroicons](https://heroicons.com/)
+
+---
+
+## 📁 Structure du projet
+TODOLIST/
+├── public/
+│   ├── favicon.svg
+│   └── vite.svg
+├── src/
+│   ├── assets/              # Images, icônes, SVG, etc.
+│   ├── components/          # Composants réutilisables
+│   │   ├── TodoInput.jsx
+│   │   ├── TodoItem.jsx
+│   │   └── Todos.jsx        ← à renommer en TodoList.jsx ?
+│   ├── layout/              # Layout global (nav, footer)
+│   │   └── MainLayout.jsx
+│   ├── pages/               # Pages routées (Home, Todo)
+│   │   └── Home.jsx
+│   ├── App.jsx              # Ancien point d’entrée (peut être supprimé si non utilisé)
+│   ├── App.css              # Styles spécifiques à App.jsx
+│   ├── index.css            # Styles globaux + Tailwind
+│   └── main.jsx             # Point d’entrée + routing
+├── index.html               # Template HTML
+├── tailwind.config.js       # Config Tailwind
+├── vite.config.js           # Config Vite
+├── postcss.config.js        # Config PostCSS
+├── eslint.config.js         # Linting
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── README.md
+
+---
+
+## 🛠️ Installation
+
+```bash
+# 1. Cloner le projet
+git clone https://github.com/ton-utilisateur/todolist-app.git
+cd todolist-app
+
+# 2. Installer les dépendances
+npm install
+
+# 3. Lancer le serveur de développement
+npm run dev
+
