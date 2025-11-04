@@ -70,4 +70,18 @@ npm install
 
 # 3. Lancer le serveur de développement
 npm run dev
+```
+
+---
+
+📄 Licence
+
+Ce projet est open-source sous licence MIT.
+Voir le fichier [LICENSE](./LICENSE) pour plus d’informations.
+
+---
+
+## 👨‍💻 Auteur
+
+Développé par **Acinox** – Développeur full-stack et étudiant, passionné par les systèmes modulaires, sécurisés et maintenables.
 
