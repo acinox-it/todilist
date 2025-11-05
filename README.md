@@ -28,7 +28,9 @@ Une application de gestion de tâches moderne construite avec **React**, **Vite*
 ---
 
 ## 📁 Structure du projet
+````markdown
 TODOLIST/
+├── docs/
 ├── public/
 │   ├── favicon.svg
 │   └── vite.svg
@@ -55,7 +57,7 @@ TODOLIST/
 ├── package.json
 ├── package-lock.json
 ├── README.md
-
+````
 ---
 
 ## 🛠️ Installation
